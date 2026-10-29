@@ -22,8 +22,6 @@ layout:
 
 พื้นที่ Data Hall 30 ตร.ม. แถวเดียว ใช้ Cold aisle containment และไม่มีพื้นยก (raised floor)
 
-<figure><img src="../.gitbook/assets/cooling.jpg" alt="Cooling"><figcaption><p>Cooling</p></figcaption></figure>
-
 ## ทำไมเลือกทำความเย็นด้วยอากาศ ไม่ใช่ของเหลว
 
 * ความหนาแน่นต่อแร็คอยู่ที่ 1.8 kW ระบบอากาศรองรับได้ถึง 20–30 kW/แร็ค

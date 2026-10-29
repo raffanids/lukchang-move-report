@@ -20,6 +20,8 @@ layout:
 
 # Physical Topology & Floor Plan
 
+สำนักงานใหญ่ (HQ) มี 2 ชั้น รองรับผู้บริหารและพนักงานประมาณ 60–100 คน ผู้ใช้ระบบได้แก่ ฝ่ายบริหาร ฝ่ายบุคคล ฝ่ายการตลาด ฝ่ายการเงิน ฝ่ายสารสนเทศ และแขกภายนอก ส่วน Sale Office เป็นสาขาขนาดเล็กสำหรับพนักงานขาย 5–10 คน
+
 ## สำนักงานใหญ่ (HQ) ชั้น 1
 
 <figure><img src="../.gitbook/assets/physical-hq-1f.jpg" alt="Physical Topology HQ ชั้น 1"><figcaption><p>Physical Topology HQ ชั้น 1</p></figcaption></figure>

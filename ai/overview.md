@@ -22,8 +22,6 @@ layout:
 
 AI ของ Lukchang Move คือ **AI Support Chatbot** ที่ทำงานแบบผสมผสาน (Hybrid) เพื่อความรวดเร็วและประหยัดต้นทุนการเรียกใช้ LLM
 
-<figure><img src="../.gitbook/assets/ai-hybrid-flow.jpg" alt="Flow AI ทำงานแบบ Hybrid"><figcaption><p>Flow AI ทำงานแบบ Hybrid</p></figcaption></figure>
-
 ## สองชั้นของการทำงาน
 
 

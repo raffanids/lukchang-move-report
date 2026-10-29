@@ -32,7 +32,7 @@ Lukchang Move ทำให้การส่งพัสดุชัดเจน
 
 ## ข้อจำกัด
 
-* FAQ Classifier ยังมี dataset เพียง 166 ตัวอย่าง ความแม่นยำบนประโยคใหม่ยังต่ำ (8/18)
+* FAQ Classifier ยังมี dataset เพียง 216 ตัวอย่าง ตอบประโยคใหม่ถูก 12/18 (66.7%) ยังต้องเพิ่มข้อมูลอีก
 * Private Datacenter ยังไม่ถึงมาตรฐาน TIA-942 Rated-3
 * Amazon Location Service ยังไม่มีใน Region Bangkok ต้องเรียกไป Singapore (~30 ms)
 

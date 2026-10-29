@@ -22,8 +22,6 @@ layout:
 
 ## HQ (รวม ฿3.315M)
 
-<figure><img src="../.gitbook/assets/network-devices-hq.jpg" alt="Network Devices HQ"><figcaption><p>Network Devices HQ</p></figcaption></figure>
-
 | อุปกรณ์ | จำนวน | หน้าที่ | ราคา (บาท) |
 | --- | --- | --- | --- |
 | FortiGate 200F | 2 | Firewall (HA) | 500,000 |
@@ -36,8 +34,6 @@ layout:
 
 ## Sale Office (รวม ฿162,000)
 
-<figure><img src="../.gitbook/assets/network-devices-sale.jpg" alt="Sale Office Device List"><figcaption><p>Sale Office Device List</p></figcaption></figure>
-
 | อุปกรณ์ | จำนวน | หน้าที่ | Key ports & power | ราคา (บาท) |
 | --- | --- | --- | --- | --- |
 | Fortinet FortiGate 40F | 1 | Branch NGFW/VPN | 5 × 1G RJ45, ~800 Mbps FW | 27,000 |
@@ -46,8 +42,6 @@ layout:
 | **รวม** | | | | **162,000** |
 
 ## Speed Ladder
-
-<figure><img src="../.gitbook/assets/speed-ladder.jpg" alt="Speed Ladder"><figcaption><p>Speed Ladder</p></figcaption></figure>
 
 | Device / Segment | Speed | Medium |
 | --- | --- | --- |

@@ -23,6 +23,12 @@ layout:
 แอปผู้ส่งครอบคลุมการสั่ง หาคนขับ และติดตามพัสดุ
 
 {% tabs %}
+{% tab title="เข้าสู่ระบบ" %}
+<figure><img src="../.gitbook/assets/sender-login.jpg" alt="หน้าเข้าสู่ระบบและสมัครสมาชิก (Progress 2)"><figcaption><p>หน้าเข้าสู่ระบบและสมัครสมาชิก (Progress 2)</p></figcaption></figure>
+
+ผู้ส่งเข้าสู่ระบบด้วยอีเมลหรือเบอร์โทรศัพท์ (ยืนยันด้วย OTP) หรือใช้บัญชี Google / Apple
+{% endtab %}
+
 {% tab title="ส่งพัสดุและหาคนขับ" %}
 <figure><img src="../.gitbook/assets/sender-order.jpg" alt="หน้าส่งพัสดุและหาคนขับ"><figcaption><p>หน้าส่งพัสดุและหาคนขับ</p></figcaption></figure>
 
@@ -55,5 +61,13 @@ layout:
 ข้อมูลตำแหน่งจัดการผ่าน **Amazon Location Service** ซึ่งรองรับแผนที่ การติดตาม และ Geofencing โดยเก็บพิกัด Latitude/Longitude เวลาที่บันทึก รหัสอุปกรณ์/ผู้ใช้ และประวัติการเดินทาง พร้อมกำหนดสิทธิ์และระยะเวลาการจัดเก็บข้อมูลให้ชัดเจน
 
 <figure><img src="../.gitbook/assets/sender-tracking.jpg" alt="หน้าติดตามสถานะพัสดุ"><figcaption><p>หน้าติดตามสถานะพัสดุ</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="โปรไฟล์และการตั้งค่า" %}
+<figure><img src="../.gitbook/assets/sender-profile.jpg" alt="โปรไฟล์และการตั้งค่า (Progress 2)"><figcaption><p>โปรไฟล์และการตั้งค่า (Progress 2)</p></figcaption></figure>
+
+* ข้อมูลบัญชี: ชื่อ เบอร์โทร อีเมล และที่อยู่เริ่มต้น แก้ไขได้
+* วิธีชำระเงิน: บัตร, TrueMoney Wallet, Rabbit LINE Pay และเพิ่มวิธีใหม่ได้
+* การแจ้งเตือน ภาษา และการตั้งค่าอื่นๆ
 {% endtab %}
 {% endtabs %}

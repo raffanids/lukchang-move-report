@@ -40,8 +40,6 @@ API Gateway, Job service, Core DB (Aurora), Matching, Payment และ Location
 
 ผลคือ **ถ้า Direct Connect ล่ม ลูกค้าไม่รู้สึก** ส่วนคำถามที่ต้องใช้ LLM จะเปิด ticket ให้ Admin แทน
 
-<figure><img src="../.gitbook/assets/design-decision.jpg" alt="Design Decision: 31 → 0"><figcaption><p>Design Decision: 31 → 0</p></figcaption></figure>
-
 ## เหตุผลที่ไม่รัน production ใน Private Datacenter
 
 ห้อง Datacenter ยังไม่ผ่านมาตรฐาน TIA-942 Rated-3 (สายป้อนไฟเส้นเดียว, generator ไม่มี N+1, CRAC ไม่ได้ต่อผ่าน UPS) ดูรายละเอียดที่ [Electrical System](../datacenter/electrical.md)

@@ -22,8 +22,6 @@ layout:
 
 AI ตัดสินใจระดับการช่วยเหลือเป็น 4 Tier
 
-<figure><img src="../.gitbook/assets/ai-support-tiers.jpg" alt="AI ตัดสินใจระดับการช่วยเหลือ 4 Tier"><figcaption><p>AI ตัดสินใจระดับการช่วยเหลือ 4 Tier</p></figcaption></figure>
-
 | Tier | ชื่อ | การทำงาน |
 | --- | --- | --- |
 | **1** | Instant Resolve | AI ตอบคำถามพื้นฐานและปิดเคสได้ทันทีด้วยคำตอบสำเร็จรูป (FAQ Classifier ไม่เรียก LLM) |

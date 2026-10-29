@@ -20,8 +20,6 @@ layout:
 
 # MLOps Pipeline
 
-<figure><img src="../.gitbook/assets/mlops.jpg" alt="MLOps pipeline ของ FAQ Classifier และ LLM"><figcaption><p>MLOps pipeline ของ FAQ Classifier และ LLM</p></figcaption></figure>
-
 | ขั้น | FAQ Classifier (Tier 1, รันบน cloud) | Qwen3.8-27B (Tier 2/3, รันบน on-prem) |
 | --- | --- | --- |
 | 1. Data | Seed data: ตัวอย่างคำถามที่ทีม/Admin review + label · ข้อมูลจริง: Chat log → intent label → Git / S3 | Chat log + ticket ที่ปิดแล้ว → Admin review / แก้คำตอบที่ถูกต้อง → label Tier 2, 3 + category + priority |

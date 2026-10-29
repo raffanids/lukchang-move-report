@@ -20,8 +20,6 @@ layout:
 
 # Redundancy
 
-<figure><img src="../.gitbook/assets/redundancy.jpg" alt="Redundancy"><figcaption><p>Redundancy</p></figcaption></figure>
-
 | Failure | Design response | Result |
 | --- | --- | --- |
 | Uplink cable cut | 2 × 10G LAG members on both core switches | Instant failover (LACP) |

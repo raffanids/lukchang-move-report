@@ -29,7 +29,7 @@ layout:
 | โมเดล | Decision Tree |
 | Feature | TF-IDF ของ character n-gram (bigram, trigram) |
 | ขนาดโมเดล | 43 nodes, depth ≤ 10 |
-| Training examples | 166 ตัวอย่าง |
+| Training examples | 216 ตัวอย่าง |
 | Hyperparameter | maxDepth = 10, minSamplesLeaf = 2 (ป้องกัน overfitting) |
 | ไฟล์โมเดล | `src/lib/chat/faq-classifier.json` |
 

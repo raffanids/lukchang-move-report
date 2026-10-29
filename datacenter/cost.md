@@ -20,10 +20,6 @@ layout:
 
 # Datacenter Cost
 
-<figure><img src="../.gitbook/assets/dc-devices-1.jpg" alt="Data Center Devices: Server, Storage และ Switch"><figcaption><p>Data Center Devices: Server, Storage และ Switch</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/dc-devices-2.jpg" alt="Data Center Devices: Rack, Cooling, UPS และ Generator"><figcaption><p>Data Center Devices: Rack, Cooling, UPS และ Generator</p></figcaption></figure>
-
 | อุปกรณ์ | จำนวน | หน้าที่ | ราคา (บาท) |
 | --- | --- | --- | --- |
 | HPE DL360 Gen11 | 4 | Virtualization Cluster (N+1) | 2,300,000 |

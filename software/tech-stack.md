@@ -26,13 +26,16 @@ layout:
 | --- | --- | --- |
 | Frontend | Flutter | แอปผู้ส่งและผู้ขับ (iOS / Android) จาก codebase เดียว |
 | Backend | Go | บริการ Job, Matching, Payment, Location, Chat + AI และ Admin API |
-| Database | PostgreSQL (Aurora), Redis (ElastiCache) | ข้อมูลธุรกรรมหลัก และ GEO index |
-| AI / LLM | Decision Tree + TF-IDF, Qwen บน vLLM | AI Support Chatbot แบบ Hybrid |
+| Database | PostgreSQL (Amazon Aurora) | ข้อมูลธุรกรรมหลัก |
+| AI | Decision Tree + TF-IDF, Qwen บน vLLM | AI Support Chatbot แบบ Hybrid |
 | Testing | flutter test, integration test, Postman, Apache JMeter | ทดสอบแอป API และ load test |
 | DevOps | Docker, GitHub Actions | build image และ CI/CD |
 | Cloud | AWS (ap-southeast-7 Bangkok) | รันระบบ production ทั้งหมดบน customer request path |
-| Project Management | Notion | วางแผนงาน บันทึกประชุม และติดตามงานแต่ละทีม |
-| Collaboration | Discord | สื่อสารภายในทีม |
+| Project Management & Collab | Notion, Discord | วางแผนงาน บันทึกประชุม ติดตามงานแต่ละทีม และสื่อสารภายในทีม |
+
+{% hint style="info" %}
+ใน Progress 2 ช่อง Database มี Redis ด้วย แต่สไลด์ Final เหลือเพียง PostgreSQL ส่วน ElastiCache Redis ยังใช้เป็น GEO index ใน [System Diagram](../cloud/system-diagram.md)
+{% endhint %}
 
 {% hint style="warning" %}
 **[เติม]** เหตุผลที่เลือกแต่ละเทคโนโลยี เช่น ทำไมเลือก Flutter แทน native หรือทำไมเลือก Go

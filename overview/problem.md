@@ -22,7 +22,7 @@ layout:
 
 การส่งของชิ้นใหญ่หรือของที่ต้องใช้รถเฉพาะทางในปัจจุบันยังมีปัญหา 3 ข้อหลัก
 
-<figure><img src="../.gitbook/assets/problem-solution.jpg" alt="ปัญหาและแนวทางแก้ไข"><figcaption><p>ปัญหาและแนวทางแก้ไข</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/problem-illus.jpg" alt="ปัญหาของการส่งของชิ้นใหญ่ในปัจจุบัน"><figcaption><p>ปัญหาของการส่งของชิ้นใหญ่ในปัจจุบัน</p></figcaption></figure>
 
 ## 1. ผู้ส่งไม่รู้ขนาดที่แน่ชัดของพัสดุ
 

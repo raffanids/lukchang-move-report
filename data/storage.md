@@ -22,8 +22,6 @@ layout:
 
 ทีมเลือกที่เก็บข้อมูลให้ตรงกับลักษณะของข้อมูลแต่ละประเภท
 
-<figure><img src="../.gitbook/assets/storage-aiml.jpg" alt="Storage และ AI/ML"><figcaption><p>Storage และ AI/ML</p></figcaption></figure>
-
 | ประเภทข้อมูล | เก็บที่ไหน | ขนาด | นโยบาย |
 | --- | --- | --- | --- |
 | Core transaction | Aurora PostgreSQL Multi-AZ (writer + reader) | 292 GB | เก็บ 5 ปี · PITR 35 วัน |
@@ -35,6 +33,22 @@ layout:
 | KYC documents | On-prem (Synology NAS) | 144 GB | เก็บ on-prem นอก critical path |
 | CCTV | Synology NAS RAID 6 | 28 TB | rolling 30 วัน เขียนทับ |
 | VM datastore | Dell PowerStore 500T | ~30 TB | snapshot รายวัน → NAS |
+
+## ที่มาของตัวเลข
+
+| ข้อมูล | วิธีคำนวณ | ผล |
+| --- | --- | --- |
+| Core transaction | 80,000 งาน × 2 KB = 160 MB/วัน × 1,825 วัน | ~292 GB |
+| Driver GPS | 800 QPS × 86,400 s × 100 byte = 6.9 GB/วัน × 1,825 วัน | ~12.6 TB |
+| Chat text | 640,000 ข้อความ × 500 byte = 320 MB/วัน × 30 วัน | ~9.6 GB |
+| รูปส่งมอบ | 80,000 งาน × 2 รูป (รับ/ส่ง) × 2 MB = 320 GB/วัน × 5 ปี | ~584 TB |
+| รูปในแชท | 1 ใน 10 ข้อความเป็นรูป 2 MB = 64,000 รูป = 128 GB/วัน × 30 วัน | ~3.84 TB |
+| เอกสาร KYC | ผู้ขับสะสม ~12,000 คนใน 5 ปี × 4 เอกสาร × 3 MB (อัปโหลดครั้งเดียวตอนสมัคร) | ~144 GB |
+| CCTV | 28 กล้อง × 1 TB/เดือน (1080p H.264) แบบ rolling 30 วัน | ~28 TB |
+
+{% hint style="info" %}
+Progress 2 วางแผนเก็บ GPS ใน Kafka/TimescaleDB และแชทใน MongoDB ตั้งแต่ Progress 4 เปลี่ยนเป็น Kinesis → S3 และ DynamoDB ตามตารางด้านบน
+{% endhint %}
 
 ## S3 Lifecycle ของรูปส่งของ
 
@@ -56,6 +70,4 @@ layout:
 | สำเนา 2 | Veeam → Synology NAS (immutable snapshot) |
 | สำเนา 3 | S3 Glacier Deep Archive |
 
-{% hint style="warning" %}
-**[เติม]** ER Diagram ของฐานข้อมูล Aurora (ตารางหลัก เช่น users, jobs, payments, tickets)
-{% endhint %}
+ดูโครงสร้างตารางของฐานข้อมูลหลักได้ที่ [ER Diagram](er-diagram.md)

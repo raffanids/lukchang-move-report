@@ -30,8 +30,6 @@ layout:
 
 ## สรุปสถาปัตยกรรม
 
-<figure><img src="../.gitbook/assets/cloud-architecture.jpg" alt="Cloud Deployment · Architecture"><figcaption><p>Cloud Deployment · Architecture</p></figcaption></figure>
-
 | ชั้น | บริการ |
 | --- | --- |
 | Clients | Sender App, Driver App (iOS / Android), Admin / WFH (Web browser) |

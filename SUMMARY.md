@@ -27,6 +27,7 @@
 
 * [Capacity & QPS](data/capacity-qps.md)
 * [Data Storage](data/storage.md)
+* [ER Diagram](data/er-diagram.md)
 
 ## AI: Support Chatbot
 
@@ -61,6 +62,7 @@
 
 * [Logical Topology](network/logical-topology.md)
 * [Physical Topology & Floor Plan](network/physical-topology.md)
+* [VLAN Design](network/vlan.md)
 * [Network Devices & Cost](network/devices.md)
 * [Redundancy](network/redundancy.md)
 * [Network Services](network/network-services.md)

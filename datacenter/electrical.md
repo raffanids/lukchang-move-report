@@ -22,7 +22,7 @@ layout:
 
 เส้นทางไฟฟ้า: **Utility → RMU → หม้อแปลง → MDB → ATS → EMDB → UPS A/B → PDU → อุปกรณ์ IT (จ่ายไฟคู่)**
 
-<figure><img src="../.gitbook/assets/electrical-th.jpg" alt="Electrical System"><figcaption><p>Electrical System</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/electrical-en.jpg" alt="Electrical system: เส้นทางไฟฟ้าแบบ 2N (Path A / Path B)"><figcaption><p>Electrical system: เส้นทางไฟฟ้าแบบ 2N (Path A / Path B)</p></figcaption></figure>
 
 | อุปกรณ์ | รายละเอียด |
 | --- | --- |
@@ -39,8 +39,6 @@ layout:
 ทั้งสองเส้นทางอิสระต่อกันแบบ **2N** เซิร์ฟเวอร์ สตอเรจ และสวิตช์ทุกตัวมี dual power supply เสียบทั้งเส้น A และ B พร้อมกัน
 
 ## เมื่อไฟฟ้าดับ
-
-<figure><img src="../.gitbook/assets/power-failure-sequence.jpg" alt="ลำดับเหตุการณ์เมื่อไฟฟ้าดับ"><figcaption><p>ลำดับเหตุการณ์เมื่อไฟฟ้าดับ</p></figcaption></figure>
 
 {% stepper %}
 {% step %}
