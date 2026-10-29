@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Lukchang Move
+  structure:
+    - type: space
+      key: lukchang-move
+      title: Lukchang Move
+      path: lukchang-move
+      default: true
+      content:
+        directory: ./
+        language: th
