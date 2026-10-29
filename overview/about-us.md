@@ -34,6 +34,7 @@ layout:
 | Teerapad Pipadboonyarat | 660610765 | Software + Systems Team |
 | Buachompoo Rerksuitthirat | 660610768 | Software Team |
 | Raffan Van-Idris | 660610791 | Software Team + Project Manager |
+
 {% endtab %}
 
 {% tab title="🖥️ Systems Team" %}
@@ -44,6 +45,7 @@ layout:
 | **Buranin Bunyoprakan** | 660610770 | Systems Team Leader |
 | Nopparada Kritwattananont | 660610766 | Systems Team |
 | Arthinan Changsawang | 660610807 | Systems Team |
+
 {% endtab %}
 
 {% tab title="🌐 Network Team" %}
@@ -55,5 +57,6 @@ layout:
 | Thanakon Saokham | 660610761 | Network Team |
 | Niphitpon Thosap | 660610767 | Network Team |
 | Patiphan Leknok | 660610771 | Network Team |
+
 {% endtab %}
 {% endtabs %}

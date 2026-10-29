@@ -85,6 +85,7 @@ layout:
 | `vehicle_type` | vehicle_type_enum | NN |
 | `license_plate` | varchar | NN |
 | `is_active` | boolean |  |
+
 {% endtab %}
 
 {% tab title="Order & Logistics" %}
@@ -131,6 +132,7 @@ layout:
 | `status` | varchar | NN |
 | `latitude` / `longitude` | decimal |  |
 | `created_at` | timestamp |  |
+
 {% endtab %}
 
 {% tab title="Payments" %}
@@ -167,6 +169,7 @@ layout:
 | `amount` | decimal(10,2) | NN |
 | `status` | payout_status_enum | NN |
 | `transferred_at` | timestamp |  |
+
 {% endtab %}
 
 {% tab title="Proofs & Reviews" %}
@@ -192,6 +195,7 @@ layout:
 | `rating` | int | NN |
 | `comment` | text |  |
 | `created_at` | timestamp |  |
+
 {% endtab %}
 
 {% tab title="Customer Support" %}
@@ -220,6 +224,7 @@ layout:
 | `message_text` | text | NN |
 | `media_url` | varchar |  |
 | `created_at` | timestamp |  |
+
 {% endtab %}
 {% endtabs %}
 
