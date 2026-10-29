@@ -20,7 +20,7 @@ layout:
 
 # About Us
 
-ทีม **Soog Free Me Company** มีสมาชิก 11 คน แบ่งเป็น 3 ทีมตามขอบเขตงาน
+ทีม **Soog Free Me Company (กลุ่มที่ 4)** มีสมาชิก 11 คน แบ่งเป็น 3 ทีมตามขอบเขตงาน
 
 <figure><img src="../.gitbook/assets/our-team.jpg" alt="สมาชิกทีม Soog Free Me Company"><figcaption><p>สมาชิกทีม Soog Free Me Company</p></figcaption></figure>
 
