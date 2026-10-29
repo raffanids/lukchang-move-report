@@ -1,3 +1,23 @@
+---
+icon: arrows-spin
+cover: ../.gitbook/assets/banner-mlops.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # MLOps Pipeline
 
 <figure><img src="../.gitbook/assets/mlops.jpg" alt="MLOps pipeline ของ FAQ Classifier และ LLM"><figcaption><p>MLOps pipeline ของ FAQ Classifier และ LLM</p></figcaption></figure>

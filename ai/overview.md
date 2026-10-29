@@ -1,3 +1,23 @@
+---
+icon: robot
+cover: ../.gitbook/assets/banner-ai.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Overview
 
 AI ของ Lukchang Move คือ **AI Support Chatbot** ที่ทำงานแบบผสมผสาน (Hybrid) เพื่อความรวดเร็วและประหยัดต้นทุนการเรียกใช้ LLM
@@ -6,8 +26,17 @@ AI ของ Lukchang Move คือ **AI Support Chatbot** ที่ทำง�
 
 ## สองชั้นของการทำงาน
 
-1. **Fast Local Classifier (Tier 1):** คำถามที่พบบ่อย (FAQ) ใช้โมเดล Decision Tree + TF-IDF คัดกรองก่อน ตอบได้ทันทีด้วยคำตอบสำเร็จรูป โดยไม่ต้องเสียค่าใช้จ่ายเรียก LLM โมเดลนี้รันบน AWS ภายในบริการ Chat + AI
-2. **LLM for Complex Cases (Tier 2 และ 3):** ถ้าคำถามหลุดจากด่านแรกหรือซับซ้อน ระบบส่งต่อให้ LLM ที่รันบน GPU ใน Private Datacenter โดยใช้ System Prompt ควบคุมพฤติกรรมให้ทำงานตาม [Support Tiers](support-tiers.md)
+
+{% stepper %}
+{% step %}
+### Fast Local Classifier (Tier 1)
+คำถามที่พบบ่อย (FAQ) ใช้โมเดล Decision Tree + TF-IDF คัดกรองก่อน ตอบได้ทันทีด้วยคำตอบสำเร็จรูป โดยไม่ต้องเสียค่าใช้จ่ายเรียก LLM โมเดลนี้รันบน AWS ภายในบริการ Chat + AI
+{% endstep %}
+{% step %}
+### LLM for Complex Cases (Tier 2 และ 3)
+ถ้าคำถามหลุดจากด่านแรกหรือซับซ้อน ระบบส่งต่อให้ LLM ที่รันบน GPU ใน Private Datacenter โดยใช้ System Prompt ควบคุมพฤติกรรมให้ทำงานตาม [Support Tiers](support-tiers.md)
+{% endstep %}
+{% endstepper %}
 
 ## ทำไมแยกสองที่
 

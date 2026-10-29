@@ -1,3 +1,23 @@
+---
+icon: scale-balanced
+cover: ../.gitbook/assets/banner-cloud.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Design Decision
 
 **ย้ายทุกอย่างบน customer request path ขึ้น AWS ทำให้ round trip ข้ามระบบแบบ synchronous ต่อหนึ่งธุรกรรมลดจากประมาณ 31 ครั้งเหลือ 0**

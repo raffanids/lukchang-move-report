@@ -1,3 +1,23 @@
+---
+icon: vial
+cover: ../.gitbook/assets/banner-software.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Testing
 
 | ประเภท | เครื่องมือ | ทดสอบอะไร |

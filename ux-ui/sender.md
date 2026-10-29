@@ -1,15 +1,35 @@
+---
+icon: box
+cover: ../.gitbook/assets/banner-ux-ui.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Sender
 
 แอปผู้ส่งครอบคลุมการสั่ง หาคนขับ และติดตามพัสดุ
 
-## ส่งพัสดุและหาคนขับ
-
+{% tabs %}
+{% tab title="ส่งพัสดุและหาคนขับ" %}
 <figure><img src="../.gitbook/assets/sender-order.jpg" alt="หน้าส่งพัสดุและหาคนขับ"><figcaption><p>หน้าส่งพัสดุและหาคนขับ</p></figcaption></figure>
 
 ผู้ส่งเริ่มจากสร้างรายการส่ง ใส่ขนาด จำนวน และประเภทพัสดุ จากนั้นระบบช่วยหาคนขับให้ ทุกขั้นตอนอยู่ในแอปเดียว ไม่ต้องไปหาคนขนของในโซเชียลมีเดีย
+{% endtab %}
 
-## จองส่งพัสดุล่วงหน้า
-
+{% tab title="จองส่งพัสดุล่วงหน้า" %}
 <figure><img src="../.gitbook/assets/sender-booking-steps.jpg" alt="ขั้นตอนจองส่งพัสดุล่วงหน้า (6 ขั้นตอน) และหน้าการจองของฉัน"><figcaption><p>ขั้นตอนจองส่งพัสดุล่วงหน้า (6 ขั้นตอน) และหน้าการจองของฉัน</p></figcaption></figure>
 
 การจองล่วงหน้าแบ่งเป็น 6 ขั้นตอน ตัวอย่างในภาพ
@@ -19,9 +39,9 @@
 * **การจองของฉัน:** แยกแท็บ กำลังจะมาถึง / ทั้งหมด / สำเร็จ / ยกเลิก แต่ละรายการแสดงเวลา เส้นทาง ประเภทรถ ผู้รับ และราคา พร้อมปุ่มดูรายละเอียดและยกเลิกการจอง
 
 <figure><img src="../.gitbook/assets/sender-booking-history.jpg" alt="จองพัสดุล่วงหน้าและประวัติการส่ง"><figcaption><p>จองพัสดุล่วงหน้าและประวัติการส่ง</p></figcaption></figure>
+{% endtab %}
 
-## ติดตามสถานะ
-
+{% tab title="ติดตามสถานะ" %}
 <figure><img src="../.gitbook/assets/tracking-location.jpg" alt="หน้าติดตามสถานะพร้อมแผนที่และ ETA"><figcaption><p>หน้าติดตามสถานะพร้อมแผนที่และ ETA</p></figcaption></figure>
 
 เมื่อมีผู้ขับรับงาน ผู้ส่งเห็นตำแหน่งผู้ขับบนแผนที่ ETA และข้อมูลผู้ขับ (ชื่อ คะแนน ทะเบียนรถ รุ่นรถ) พร้อมปุ่มโทรและแชท สถานะแบ่งเป็นลำดับดังนี้
@@ -35,3 +55,5 @@
 ข้อมูลตำแหน่งจัดการผ่าน **Amazon Location Service** ซึ่งรองรับแผนที่ การติดตาม และ Geofencing โดยเก็บพิกัด Latitude/Longitude เวลาที่บันทึก รหัสอุปกรณ์/ผู้ใช้ และประวัติการเดินทาง พร้อมกำหนดสิทธิ์และระยะเวลาการจัดเก็บข้อมูลให้ชัดเจน
 
 <figure><img src="../.gitbook/assets/sender-tracking.jpg" alt="หน้าติดตามสถานะพัสดุ"><figcaption><p>หน้าติดตามสถานะพัสดุ</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}

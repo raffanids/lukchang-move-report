@@ -1,3 +1,23 @@
+---
+icon: code-branch
+cover: ../.gitbook/assets/banner-mlops.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # CI/CD
 
 | ส่วน | เครื่องมือ | ขั้นตอน |

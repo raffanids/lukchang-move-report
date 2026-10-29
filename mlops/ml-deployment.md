@@ -1,3 +1,23 @@
+---
+icon: rocket
+cover: ../.gitbook/assets/banner-mlops.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # ML Deployment
 
 <figure><img src="../.gitbook/assets/ml-deployment.jpg" alt="ML deployment"><figcaption><p>ML deployment</p></figcaption></figure>

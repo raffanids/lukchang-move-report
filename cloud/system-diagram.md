@@ -1,3 +1,23 @@
+---
+icon: cloud
+cover: ../.gitbook/assets/banner-cloud.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # System Diagram
 
 ระบบ production ทั้งหมดบน customer request path รันบน **AWS Region ap-southeast-7 (Bangkok)** แบบ Multi-AZ จำนวน 3 Availability Zone เพื่อไม่ให้มี Single Point of Failure

@@ -1,3 +1,23 @@
+---
+icon: location-dot
+cover: ../.gitbook/assets/banner-cloud.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Location & GPS Pipeline
 
 ## Amazon Location Service

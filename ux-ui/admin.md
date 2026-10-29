@@ -1,3 +1,23 @@
+---
+icon: user-shield
+cover: ../.gitbook/assets/banner-ux-ui.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Admin
 
 Admin ใช้งานผ่าน **KYC Management Dashboard** บน Web browser สำหรับตรวจสอบ แก้ปัญหา และดูข้อมูลหลังบ้าน

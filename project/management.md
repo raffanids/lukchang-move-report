@@ -1,3 +1,23 @@
+---
+icon: clipboard-list
+cover: ../.gitbook/assets/banner-project.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Project Management
 
 ทีมใช้ **Notion** วางแผนและติดตามงาน แบ่งการทำงานตามฝ่าย (All Team, Software, System, Network) พร้อมระบุผู้รับผิดชอบและกำหนดส่งชัดเจน และใช้ **Google Drive** เก็บไฟล์งานและบันทึกการประชุม

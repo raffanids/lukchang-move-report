@@ -1,3 +1,23 @@
+---
+icon: network-wired
+cover: ../.gitbook/assets/banner-network.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Logical Topology
 
 <figure><img src="../.gitbook/assets/logical-topology.jpg" alt="Logical Topology"><figcaption><p>Logical Topology</p></figcaption></figure>

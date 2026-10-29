@@ -1,3 +1,23 @@
+---
+icon: sitemap
+cover: ../.gitbook/assets/banner-software.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Software Architecture
 
 Backend ออกแบบเป็นบริการแยกตามหน้าที่ รันเป็น container บน **Amazon ECS Fargate** ในทุก Availability Zone

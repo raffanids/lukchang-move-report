@@ -1,3 +1,23 @@
+---
+icon: chart-simple
+cover: ../.gitbook/assets/banner-ai.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Evaluation
 
 <figure><img src="../.gitbook/assets/ai-results-p3.jpg" alt="ผลการทดสอบ FAQ Classifier"><figcaption><p>ผลการทดสอบ FAQ Classifier</p></figcaption></figure>

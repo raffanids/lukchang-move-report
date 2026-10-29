@@ -1,3 +1,23 @@
+---
+icon: bolt
+cover: ../.gitbook/assets/banner-datacenter.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Electrical System
 
 เส้นทางไฟฟ้า: **Utility → RMU → หม้อแปลง → MDB → ATS → EMDB → UPS A/B → PDU → อุปกรณ์ IT (จ่ายไฟคู่)**
@@ -22,13 +42,28 @@
 
 <figure><img src="../.gitbook/assets/power-failure-sequence.jpg" alt="ลำดับเหตุการณ์เมื่อไฟฟ้าดับ"><figcaption><p>ลำดับเหตุการณ์เมื่อไฟฟ้าดับ</p></figcaption></figure>
 
-| ลำดับ | เวลา | เหตุการณ์ |
-| --- | --- | --- |
-| 1 | t = 0 | ไฟฟ้าดับหรือแรงดันตกนอกเกณฑ์ ระบบตรวจจับได้ทันที |
-| 2 | 0–10 ms | UPS รับโหลดทันที ระบบ online double-conversion ทำให้ไม่มีการสลับแหล่งจ่าย (zero transfer time) |
-| 3 | 10–60 วินาที | ATS สั่งเครื่องปั่นไฟดีเซล 60 kVA เริ่มทำงาน และรับโหลดเต็มภายในไม่ถึง 1 นาที |
-| 4 | ไม่เกิน 15 นาที | งบเวลาของแบตเตอรี่ Li-ion เครื่องปั่นไฟต้องมาทันก่อนหมดเวลานี้ |
-| 5 | เมื่อไฟกลับมา | ATS สลับกลับไปใช้ไฟการไฟฟ้าตามลำดับ เครื่องปั่นไฟทำงานต่ออีกครู่เพื่อ cool-down |
+{% stepper %}
+{% step %}
+### t = 0
+ไฟฟ้าดับหรือแรงดันตกนอกเกณฑ์ ระบบตรวจจับได้ทันที
+{% endstep %}
+{% step %}
+### 0–10 ms
+UPS รับโหลดทันที ระบบ online double-conversion ทำให้ไม่มีการสลับแหล่งจ่าย (zero transfer time)
+{% endstep %}
+{% step %}
+### 10–60 วินาที
+ATS สั่งเครื่องปั่นไฟดีเซล 60 kVA เริ่มทำงาน และรับโหลดเต็มภายในไม่ถึง 1 นาที
+{% endstep %}
+{% step %}
+### ไม่เกิน 15 นาที
+งบเวลาของแบตเตอรี่ Li-ion เครื่องปั่นไฟต้องมาทันก่อนหมดเวลานี้
+{% endstep %}
+{% step %}
+### เมื่อไฟกลับมา
+ATS สลับกลับไปใช้ไฟการไฟฟ้าตามลำดับ เครื่องปั่นไฟทำงานต่ออีกครู่เพื่อ cool-down
+{% endstep %}
+{% endstepper %}
 
 | ตัวเลข | ค่า |
 | --- | --- |

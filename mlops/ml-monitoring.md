@@ -1,3 +1,23 @@
+---
+icon: chart-line
+cover: ../.gitbook/assets/banner-mlops.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # ML Monitoring
 
 <figure><img src="../.gitbook/assets/ml-monitoring.jpg" alt="ML Monitoring"><figcaption><p>ML Monitoring</p></figcaption></figure>

@@ -1,3 +1,23 @@
+---
+icon: snowflake
+cover: ../.gitbook/assets/banner-datacenter.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Cooling
 
 พื้นที่ Data Hall 30 ตร.ม. แถวเดียว ใช้ Cold aisle containment และไม่มีพื้นยก (raised floor)

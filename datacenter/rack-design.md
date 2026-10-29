@@ -1,3 +1,23 @@
+---
+icon: server
+cover: ../.gitbook/assets/banner-datacenter.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Rack Design
 
 Private Datacenter อยู่ที่ชั้น 2 ของสำนักงานใหญ่ ใช้ rack 42U ขนาด 800×1200 mm จำนวน 4 ตู้ (ใช้งาน 3 + สำรอง 1)

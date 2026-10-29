@@ -1,3 +1,23 @@
+---
+icon: globe
+cover: ../.gitbook/assets/banner-network.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Network Services
 
 ## Internet connectivity (HQ)

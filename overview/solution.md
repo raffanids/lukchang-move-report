@@ -1,3 +1,23 @@
+---
+icon: lightbulb
+cover: ../.gitbook/assets/banner-overview.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Solution
 
 Lukchang Move แก้ปัญหาทั้ง 3 ข้อด้วยฟีเจอร์ต่อไปนี้

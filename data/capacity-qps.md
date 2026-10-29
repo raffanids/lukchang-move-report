@@ -1,3 +1,23 @@
+---
+icon: gauge-high
+cover: ../.gitbook/assets/banner-data.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Capacity & QPS
 
 ตัวเลขที่ใช้ออกแบบระบบ

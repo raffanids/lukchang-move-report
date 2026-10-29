@@ -1,3 +1,23 @@
+---
+icon: coins
+cover: ../.gitbook/assets/banner-datacenter.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Datacenter Cost
 
 <figure><img src="../.gitbook/assets/dc-devices-1.jpg" alt="Data Center Devices: Server, Storage และ Switch"><figcaption><p>Data Center Devices: Server, Storage และ Switch</p></figcaption></figure>

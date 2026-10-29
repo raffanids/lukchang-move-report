@@ -1,3 +1,23 @@
+---
+icon: list-check
+cover: ../.gitbook/assets/banner-overview.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Software Requirements
 
 ความต้องการของระบบสรุปจากฟีเจอร์ในหน้าจอแอปและ User Flow ของแต่ละกลุ่มผู้ใช้

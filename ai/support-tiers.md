@@ -1,3 +1,23 @@
+---
+icon: stairs
+cover: ../.gitbook/assets/banner-ai.jpg
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Support Tiers
 
 AI ตัดสินใจระดับการช่วยเหลือเป็น 4 Tier
