@@ -2,6 +2,22 @@
 
 Lukchang Move ทำให้การส่งพัสดุชัดเจน ปลอดภัย และมี AI ช่วยดูแลลูกค้า
 
+## สรุปผลงาน
+
+* **ผลิตภัณฑ์:** แอปผู้ส่งและผู้ขับบน Flutter พร้อม KYC Management Dashboard ครอบคลุมการสั่ง จองล่วงหน้า ติดตาม แชท และยืนยันการส่งมอบ
+* **AI:** Support Chatbot แบบ Hybrid ตอบคำถามพบบ่อยทันทีด้วย Decision Tree และส่งต่อเคสซับซ้อนให้ LLM ที่รันบน GPU ของบริษัท โดยแบ่งระดับ Tier 1 ถึง 3 ตามความเสี่ยง
+* **Cloud:** ย้ายทุกอย่างบน customer request path ขึ้น AWS Bangkok แบบ Multi-AZ ลด round trip ข้ามระบบจาก ~31 เหลือ 0 ถ้าการเชื่อมต่อกับ Private Datacenter มีปัญหา ลูกค้าก็ไม่รู้สึก
+* **Datacenter:** ห้อง DC ขนาดเล็ก 8 kW ไฟฟ้าแบบ 2N และทำความเย็น N+1 รองรับ LLM, งานภายใน และ backup งบประมาณ ฿12.285M
+* **Network:** HQ 2 ชั้นและ Sale Office เชื่อมด้วย IPSec VPN ไม่มี Single Point of Failure ในจุดสำคัญ งบประมาณรวม ฿3.477M
+
+## ข้อจำกัด
+
+* FAQ Classifier ยังมี dataset เพียง 166 ตัวอย่าง ความแม่นยำบนประโยคใหม่ยังต่ำ (8/18)
+* Private Datacenter ยังไม่ถึงมาตรฐาน TIA-942 Rated-3
+* Amazon Location Service ยังไม่มีใน Region Bangkok ต้องเรียกไป Singapore (~30 ms)
+
 ## Next Steps
 
-> **[เติม]** 
+* ขยาย training data ของ Classifier ผ่าน feedback loop ที่ Admin ติด label
+* Phase 2: เพิ่ม GPU node ตัวที่ 2 ใน Rack R4 ใช้ 100G RoCE v2 และ in-row cooling + RDHx
+* อัปเกรด ISP ของ HQ จาก 500 Mbps เป็น 1 Gbps เมื่อจำนวนพนักงานเพิ่มขึ้น

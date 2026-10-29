@@ -23,17 +23,15 @@
 * [Software Architecture](software/architecture.md)
 * [Testing](software/testing.md)
 
-## Database Design
+## Data & Storage
 
-* [ER Diagram](database/er-diagram.md)
-* [Data Storage Estimation](database/storage-estimation.md)
-* [Capacity & QPS](database/capacity-qps.md)
+* [Capacity & QPS](data/capacity-qps.md)
+* [Data Storage](data/storage.md)
 
 ## AI: Support Chatbot
 
 * [Overview](ai/overview.md)
-* [Dataset](ai/dataset.md)
-* [Model](ai/model.md)
+* [Dataset & Model](ai/model.md)
 * [Support Tiers](ai/support-tiers.md)
 * [Evaluation](ai/evaluation.md)
 * [Demo](ai/demo.md)
@@ -41,12 +39,12 @@
 ## Cloud Deployment (AWS)
 
 * [System Diagram](cloud/system-diagram.md)
-* [Location & GPS Pipeline](cloud/gps-pipeline.md)
+* [Location & GPS Pipeline](cloud/location-gps.md)
 * [Design Decision](cloud/design-decision.md)
-* [Cost Estimation](cloud/cost-estimation.md)
 
-## MLOps & CI/CD
+## MLOps
 
+* [ML Deployment](mlops/ml-deployment.md)
 * [MLOps Pipeline](mlops/mlops-pipeline.md)
 * [ML Monitoring](mlops/ml-monitoring.md)
 * [CI/CD](mlops/ci-cd.md)
@@ -54,17 +52,18 @@
 ## Private Datacenter
 
 * [Rack Design](datacenter/rack-design.md)
-* [Cooling & Electrical](datacenter/cooling-electrical.md)
 * [Server & Storage](datacenter/server-storage.md)
-* [Backup & Disaster Recovery](datacenter/backup-dr.md)
+* [Electrical System](datacenter/electrical.md)
+* [Cooling](datacenter/cooling.md)
+* [Datacenter Cost](datacenter/cost.md)
 
 ## Network Design
 
-* [Floor Plan](network/floor-plan.md)
-* [Topology](network/topology.md)
-* [VLAN & IP](network/vlan.md)
-* [Redundancy & VPN](network/redundancy-vpn.md)
-* [Equipment](network/equipment.md)
+* [Logical Topology](network/logical-topology.md)
+* [Physical Topology & Floor Plan](network/physical-topology.md)
+* [Network Devices & Cost](network/devices.md)
+* [Redundancy](network/redundancy.md)
+* [Network Services](network/network-services.md)
 
 ## Project
 
