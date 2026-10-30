@@ -24,7 +24,6 @@ AI ของ Lukchang Move คือ **AI Support Chatbot** ที่ทำง�
 
 ## สองชั้นของการทำงาน
 
-
 {% stepper %}
 {% step %}
 ### Fast Local Classifier (Tier 1)
