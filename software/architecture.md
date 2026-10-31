@@ -39,6 +39,6 @@ Backend ออกแบบเป็นบริการแยกตามหน
 2. request ผ่าน **CloudFront** (CDN + TLS termination) โดยมี **AWS WAF** (OWASP + rate limit) และ **Shield Standard** (DDoS) ป้องกัน
 3. เข้า **API Gateway** (HTTP API + WebSocket API) และยืนยันตัวตนด้วย **Cognito** (user pool + JWT)
 4. เมื่อ JWT ผ่านแล้ว API Gateway ส่งต่อผ่าน **VPC Link** ไปยัง Internal ALB
-5. **Internal ALB** กระจาย request ไปยังบริการบน ECS Fargate ซึ่งอ่านเขียน Aurora และ Redis ใน private subnet
+5. **Internal ALB** กระจาย request ไปยังบริการบน ECS Fargate ซึ่งอ่านเขียน Aurora ใน private subnet
 
 งานที่ไม่ต้องรอผล (async) ใช้ **SQS + EventBridge** ส่วน push notification ใช้ **Amazon SNS** ส่งไปยัง FCM / APNs

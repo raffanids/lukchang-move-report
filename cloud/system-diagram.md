@@ -37,7 +37,7 @@ layout:
 | API & Auth | API Gateway (HTTP + WebSocket), Cognito (user pool + JWT) |
 | Network | VPC, Internet Gateway, VPC Link, Internal ALB, NAT Gateway, VPC Endpoints (S3 gateway, ECR, Secrets, CloudWatch interface) |
 | Compute | ECS Fargate ใน private app subnet ทุก AZ: Job/Order, Matching + Routing, Payment, Location ingest, Chat + AI (FAQ Decision Tree), Admin API |
-| Data | Aurora PostgreSQL (writer + reader), ElastiCache Redis (GEO index) |
+| Data | Aurora PostgreSQL (writer + reader) |
 | Managed services | Kinesis Data Streams (1 shard), Kinesis Data Firehose, S3 + Glacier, SQS + EventBridge, CloudWatch + X-Ray, Athena, DynamoDB |
 | นอก Region | Amazon Location Service (ap-southeast-1 Singapore ผ่าน NAT ~30 ms เพราะยังไม่มีใน Bangkok): Routes, Places, Maps |
 | Third-party | Amazon SNS → FCM / APNs (push), Payment Gateway (บัตร, QR PromptPay) |
