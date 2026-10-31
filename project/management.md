@@ -29,10 +29,13 @@ layout:
 
 ## ใน Notion มีอะไรบ้าง
 
-* Project Proposal และ Record Meeting
+* Record Meeting และลิงก์ไปยัง GitBook Lukchang Move
 * LukChangMove UX/UI: All Design in Figma, Sender App Design, Driver App Design, KYC Management Dashboard
-* Progress Meeting #1–#3 และ Presentation Slide ของ Progress #1–#4
+* Progress Meeting #1–#4 และ Presentation Slide ของ Progress #1–#4 และ Progress #Final
 * ฐานข้อมูล Meetings ที่บันทึกการประชุมทุกครั้ง
+
+<figure><img src="../.gitbook/assets/pm-notion-latest.jpg" alt="หน้าเมนูและฐานข้อมูล Meetings ใน Notion (ล่าสุด)"><figcaption><p>หน้าเมนูและฐานข้อมูล Meetings ใน Notion (ล่าสุด)</p></figcaption></figure>
+
 
 ## ไทม์ไลน์การประชุม
 
@@ -49,7 +52,11 @@ layout:
 | 2 ก.ย. 2026 | Prog#3 Meeting #1 |
 | 8 ก.ย. 2026 | Prog#3 Meeting #2 |
 | 9 ก.ย. 2026 | **Progress #3** |
-| 14 ต.ค. 2026 | **Final Presentation** |
+| 16 ก.ย. 2026 | Prog#4 Meeting #1 |
+| 30 ก.ย. 2026 | **Progress #4** |
+| 7 ต.ค. 2026 | Prog#Final Meeting #1 |
+| 13 ต.ค. 2026 | Prog#Final Meeting #2 |
+| 14 ต.ค. 2026 | **Progress #Final** |
 
 ## บอร์ดงานแต่ละทีม
 
