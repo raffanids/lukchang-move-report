@@ -24,10 +24,6 @@ layout:
 
 <figure><img src="../.gitbook/assets/system-diagram.jpg" alt="System Diagram"><figcaption><p>System Diagram</p></figcaption></figure>
 
-{% hint style="info" %}
-ภาพ diagram นี้มาจาก Progress 4 ซึ่งยังวาด 2 AZ และ OneSignal ส่วนการออกแบบสุดท้ายที่ทีมยืนยันคือ **3 AZ** และใช้ **Amazon SNS** ส่ง push notification
-{% endhint %}
-
 ## สรุปสถาปัตยกรรม
 
 | ชั้น | บริการ |
