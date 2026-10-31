@@ -28,14 +28,22 @@ layout:
 {% endtab %}
 
 {% tab title="Case Tier 2" %}
-{% file src="../.gitbook/assets/demo-case-tier2.mp4" %}
+{% embed url="https://1938590434-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCZq5MNq66SNlV0Id4IfW%2Fuploads%2Fgit-blob-b10b238641970776670260cd264eca43b23d8840%2Fdemo-case-tier2.mp4?alt=media" %}
 วิดีโอ Demo Case Tier 2
+{% endembed %}
+
+{% file src="../.gitbook/assets/demo-case-tier2.mp4" %}
+ดาวน์โหลดวิดีโอ Case Tier 2
 {% endfile %}
 {% endtab %}
 
 {% tab title="Case Tier 3" %}
-{% file src="../.gitbook/assets/demo-case-tier3.mp4" %}
+{% embed url="https://1938590434-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCZq5MNq66SNlV0Id4IfW%2Fuploads%2Fgit-blob-f1d07065e544e51b9d6ac96fe28f6a5dfa456c23%2Fdemo-case-tier3.mp4?alt=media" %}
 วิดีโอ Demo Case Tier 3
+{% endembed %}
+
+{% file src="../.gitbook/assets/demo-case-tier3.mp4" %}
+ดาวน์โหลดวิดีโอ Case Tier 3
 {% endfile %}
 {% endtab %}
 {% endtabs %}
