@@ -35,9 +35,3 @@ Lukchang Move ทำให้การส่งพัสดุชัดเจน
 * FAQ Classifier ยังมี dataset เพียง 216 ตัวอย่าง ตอบประโยคใหม่ถูก 12/18 (66.7%) ยังต้องเพิ่มข้อมูลอีก
 * Private Datacenter ยังไม่ถึงมาตรฐาน TIA-942 Rated-3
 * Amazon Location Service ยังไม่มีใน Region Bangkok ต้องเรียกไป Singapore (~30 ms)
-
-## Next Steps
-
-* ขยาย training data ของ Classifier ผ่าน feedback loop ที่ Admin ติด label
-* Phase 2: เพิ่ม GPU node ตัวที่ 2 ใน Rack R4 ใช้ 100G RoCE v2 และ in-row cooling + RDHx
-* อัปเกรด ISP ของ HQ จาก 500 Mbps เป็น 1 Gbps เมื่อจำนวนพนักงานเพิ่มขึ้น

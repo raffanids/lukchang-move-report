@@ -51,7 +51,3 @@ layout:
 ตัวเลขยังไม่สูงมาก เพราะ dataset มีเพียง 216 ตัวอย่าง แต่ระบบออกแบบให้ Classifier เป็นด่านแรกเท่านั้น เมื่อไม่มั่นใจ ระบบจะ **ไม่ตอบเอง** แล้วส่งต่อให้ LLM หรือ Admin สิ่งที่สำคัญที่สุดจึงเป็นการคุม confidently-wrong rate ให้ต่ำ
 
 ในการ deploy มีเกณฑ์ว่า novel-phrase test และ confidently-wrong ต้องไม่เกินเกณฑ์ก่อนปล่อยโมเดลใหม่ ส่วน LLM ใช้ eval set ที่วัดว่าตอบถูก route ticket ถูกทีม และ escalate ไม่พลาด
-
-{% hint style="info" %}
-ใน Progress 3 โมเดลเทรนด้วย 166 ตัวอย่าง ได้ novel-phrase test 8/18 (44.4%) หลังเพิ่มข้อมูลเป็น 216 ตัวอย่างใน Final ผลขึ้นเป็น 12/18 (66.7%) โดย precision และ confidently-wrong rate เท่าเดิม
-{% endhint %}

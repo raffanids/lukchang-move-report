@@ -50,7 +50,3 @@ Core transaction DB, Payment และ KYC อยู่ใน Private Data Cente
 API Gateway, Job service, Core DB (Aurora), Matching, Payment และ Location + Chat อยู่ใน AWS Region เดียวทั้งหมด (RTT < 1 ms) Private Data Center เชื่อมแบบ async เท่านั้น (CDC replication, backup, batch) และเหลือเฉพาะงานนอก critical path ได้แก่ Corporate IT, Dev/Test/Staging, ML training, LLM serving, CCTV และ backup target
 
 ผลคือ **ถ้า Direct Connect ล่ม ลูกค้าไม่รู้สึก** ส่วนคำถามที่ต้องใช้ LLM จะเปิด ticket ให้ Admin แทน
-
-## เหตุผลที่ไม่รัน production ใน Private Datacenter
-
-ห้อง Datacenter ยังไม่ผ่านมาตรฐาน TIA-942 Rated-3 (สายป้อนไฟเส้นเดียว, generator ไม่มี N+1, CRAC ไม่ได้ต่อผ่าน UPS) ดูรายละเอียดที่ [Electrical System](../datacenter/electrical.md)
