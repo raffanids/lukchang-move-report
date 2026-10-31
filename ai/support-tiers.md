@@ -36,13 +36,9 @@ AI ตัดสินใจระดับการช่วยเหลือ�
 
 ## Flow การตัดสินใจ
 
-<figure><img src="../.gitbook/assets/ml-deployment.jpg" alt="ML deployment: flow ของ Chat + AI service"><figcaption><p>ML deployment: flow ของ Chat + AI service</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/flow-ai.jpg" alt="Flow AI ของ Support Chatbot"><figcaption><p>Flow AI ของ Support Chatbot</p></figcaption></figure>
 
-1. ข้อความจากแอปผ่าน API Gateway (WebSocket, ตรวจ JWT) เข้าบริการ Chat + AI บน ECS Fargate
-2. ถ้าอยู่ใน ticket flow อยู่แล้ว (`hasTicketContext()`) ส่งให้ LLM on-prem ทันที
-3. ถ้าไม่ใช่ ส่งเข้า FAQ Classifier แล้วเช็กว่าความมั่นใจของ intent ≥ threshold หรือไม่
-4. ถ้ามั่นใจ ตอบด้วย Tier 1 (`FAQ_ITEMS`) ทันที
-5. ถ้าไม่มั่นใจ ส่งให้ LLM on-prem ผ่าน Transit Gateway → Direct Connect (~3 ms)
-6. คำตอบ Tier 2/3 หรือ `TICKET_CREATED` ผ่าน `parseTicketBlock()` ซึ่งตรวจหมวด + tier และมี fallback ถ้าผิดรูปแบบ
-7. ticket บันทึกใน Aurora (ACID เพราะผูกกับการคืนเงิน) แล้ว Admin ตรวจตาม SLA
-8. แชททุกข้อความบันทึกใน DynamoDB 30 วัน แล้ว ETL เป็น dataset สำหรับเทรน
+1. **ข้อความจากผู้ใช้:** ผู้ส่งหรือผู้ขับพิมพ์คำถามผ่านแชทในแอป
+2. **ด่านที่ 1 · FAQ Classifier (Local):** โมเดล Decision Tree + TF-IDF ตรวจว่าเป็นคำถามพบบ่อยหรือไม่ ถ้ามั่นใจ จะตอบเป็น **Tier 1** ทันที ไม่ต้องรอ LLM
+3. **ด่านที่ 2 · LLM ตามที่กำหนด:** คำถามที่ซับซ้อนหรือหลุดจากด่านแรก จะส่งต่อให้ LLM ช่วยวิเคราะห์ปัญหา
+4. **Tier 2 และ 3:** ถ้าต้องให้คนช่วย LLM จะเปิด Ticket แล้วโอนให้ Admin ดูแลต่อตามระดับความเร่งด่วน
