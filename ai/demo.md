@@ -28,14 +28,16 @@ layout:
 {% endtab %}
 
 {% tab title="Case Tier 2" %}
-<figure><img src="../.gitbook/assets/ai-demo-tier2-final.jpg" alt="Demo Case Tier 2"><figcaption><p>Demo Case Tier 2</p></figcaption></figure>
+{% file src="../.gitbook/assets/demo-case-tier2.mp4" %}
+วิดีโอ Demo Case Tier 2
+{% endfile %}
 {% endtab %}
 
 {% tab title="Case Tier 3" %}
-<figure><img src="../.gitbook/assets/ai-demo-tier3-final.jpg" alt="Demo Case Tier 3"><figcaption><p>Demo Case Tier 3</p></figcaption></figure>
+{% file src="../.gitbook/assets/demo-case-tier3.mp4" %}
+วิดีโอ Demo Case Tier 3
+{% endfile %}
 {% endtab %}
 {% endtabs %}
 
-{% hint style="warning" %}
-**[เติม]** ลิงก์วิดีโอ Demo (ถ้ามี) สามารถใส่เป็น Embed YouTube ได้
-{% endhint %}
+
