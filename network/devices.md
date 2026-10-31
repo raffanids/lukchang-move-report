@@ -20,7 +20,7 @@ layout:
 
 # Network Devices & Cost
 
-## HQ (รวม ฿3.315M)
+## HQ (รวม ฿3.370M)
 
 | อุปกรณ์ | จำนวน | หน้าที่ | ราคา (บาท) |
 | --- | --- | --- | --- |
@@ -28,9 +28,9 @@ layout:
 | Catalyst 9300-48P | 2 | Core stack | 560,000 |
 | Catalyst 9300-48P | 3 | Access ชั้น 1 และ 2 | 735,000 |
 | Nexus 93180YC-FX | 2 | DC fabric | 700,000 |
-| Catalyst 9166 | 11 | Access Point | 605,000 |
+| Catalyst 9166 | 12 | Access Point | 660,000 |
 | Catalyst 9800-L | 1 | WLAN Controller | 215,000 |
-| **รวม** | | | **3,315,000** |
+| **รวม** | | | **3,370,000** |
 
 ## Sale Office (รวม ฿162,000)
 
@@ -45,7 +45,7 @@ layout:
 
 | Device / Segment | Speed | Medium |
 | --- | --- | --- |
-| Staff desks | Wi-Fi 6E (11 APs) | RF |
+| Staff desks | Wi-Fi 6E (12 APs) | RF |
 | AP Catalyst 9166 | 1 Gbps (PoE+) | Cat6A |
 | Access switch (IDF-1F / MDF) | 2 × 10G LAG | OM4 fiber (riser) |
 | Core stack → Nexus × 2 (vPC) | 2 × 10G LAG each (40G total) | OM4 + SFP+ |
